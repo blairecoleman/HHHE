@@ -1,0 +1,225 @@
+@rouge: #CB6868;
+@navy: #05205C;
+@cream: #FAF8F8;
+@warmgrey: #958C8C;
+@darkgrey: #707070;
+@coolgrey: #90959F;
+@tropicgreen: #33CC00;
+@font-face{
+  font-family: "Chaparral";
+  src: url(../assets/chaparral-pro/ChaparralPro-Regular.otf);
+}
+@font-face{
+  font-family: "Chaparral Italic";
+  src: url(../assets/chaparral-pro/ChaparralPro-Italic.otf);
+
+}
+* {margin: 0;}
+body{ text-align: center;
+
+}
+
+header{ display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: @cream;
+  padding-top: 40px;
+
+}
+h1{
+  font-family: "Chaparral", serif;
+  font-size: 75px;
+  color: @navy;
+}
+nav{ background-color: @warmgrey;
+  line-height: 40px;
+}
+
+h2{font-family: "Chaparral Italic", serif;
+  font-size: 45px;
+  margin-top: 25px;
+
+
+}
+h3{font-family: "Chaparral", serif;
+  font-size: 35px;
+}
+p{ font-family: "Chaparral", serif;
+  font-size: 25px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
+  line-height: 200%;
+  text-align: justify;
+}
+.text{
+
+}
+a {text-decoration: none;
+  font-size: 30px;
+  font-family: "Chaparral", serif;
+  color: @tropicgreen;
+}
+nav{ display: flex;
+  flex-direction: row;
+  justify-content: space-around ;
+  position: fixed;
+  width: 100%;
+
+}
+nav a {color: @cream;}
+nav a:hover{ color: @rouge;}
+
+.section{
+  min-height: 1100px;
+  background-color: @rouge;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  color: @cream;
+
+}
+.section:nth-child(odd){
+  min-height: 850px;
+  background-color: @cream;
+  padding-top: 40px;
+  display: flex;
+  color: @coolgrey;
+
+
+
+}
+.follow{
+  z-index: 2;
+  margin-top: 10px;
+}
+
+.follow a{
+  font-size: 55px;
+  letter-spacing: 40px;
+}
+
+
+blockquote{font-size: 32px;
+  width: 70%;
+  line-height: 150%;
+  font-style: italic;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+#overlay {
+  background-color: rgba(225,225,225, 0.75);
+  min-height: 1100px;
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+
+}
+.donate{
+  height: 60px;
+  width: 80%;
+  font-size: 25px;
+  color: @cream;
+  background-color: @navy;
+  font-family: "Chaparral", serif;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px @coolgrey;
+  margin: 20px;
+
+}
+#mission{
+  color: @darkgrey;
+  margin-top: 70px;
+}
+#buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+ul {
+  width: 80%;
+  margin: auto;
+  align-content: center;
+  flex-wrap: wrap;
+
+}
+li {font-family: "Chaparral", serif;
+  margin: 5px;
+  min-height: 20px;
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+
+}
+h4{
+  font-size: 30px;
+  color: @navy;
+}
+#graphics{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 80%;
+
+}
+footer {
+  background-color: @navy;
+  color: @cream;
+  min-height: 200px;
+}
+#sponsors{display: flex;
+flex-direction: column;}
+#bsponsors{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 20px;
+  height: 200px;
+}
+#isponsors{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 15px;
+  height: 200px;
+}
+.jstflexrow{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+.jstflexitem{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+button{
+  min-height: 50px;
+  min-width: 70px;
+  font-family: "Chaparral", serif;
+  font-size: 30px;
+  margin: 15px;
+  color: @cream;
+  background-color: @navy;
+
+}
+button:hover{
+  background-color: @coolgrey;
+}
+.fontcolor{
+  color: @cream;
+}
+

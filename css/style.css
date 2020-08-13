@@ -1,0 +1,503 @@
+@font-face {
+  font-family: "Chaparral";
+  src: url(../assets/chaparral-pro/ChaparralPro-Regular.otf);
+}
+@font-face {
+  font-family: "Chaparral Italic";
+  src: url(../assets/chaparral-pro/ChaparralPro-Italic.otf);
+}
+@font-face {
+  font-family: "Chaparral";
+  src: url(../assets/chaparral-pro/ChaparralPro-Regular.otf);
+}
+@font-face {
+  font-family: "Chaparral Italic";
+  src: url(../assets/chaparral-pro/ChaparralPro-Italic.otf);
+}
+* {
+  margin: 0;
+}
+body {
+  text-align: center;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #FAF8F8;
+  padding-top: 40px;
+}
+h1 {
+  font-family: "Chaparral", serif;
+  font-size: 75px;
+  color: #05205C;
+}
+nav {
+  background-color: #958C8C;
+  line-height: 40px;
+}
+h2 {
+  font-family: "Chaparral Italic", serif;
+  font-size: 45px;
+  margin-top: 25px;
+}
+h3 {
+  font-family: "Chaparral", serif;
+  font-size: 35px;
+}
+p {
+  font-family: "Chaparral", serif;
+  font-size: 25px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
+  line-height: 200%;
+  text-align: justify;
+}
+a {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Chaparral", serif;
+  color: #33CC00;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+}
+nav a {
+  color: #FAF8F8;
+}
+nav a:hover {
+  color: #CB6868;
+}
+.section {
+  min-height: 1100px;
+  background-color: #CB6868;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  color: #FAF8F8;
+}
+.section:nth-child(odd) {
+  min-height: 850px;
+  background-color: #FAF8F8;
+  padding-top: 40px;
+  display: flex;
+  color: #90959F;
+}
+.follow {
+  z-index: 2;
+  margin-top: 10px;
+}
+.follow a {
+  font-size: 55px;
+  letter-spacing: 40px;
+}
+blockquote {
+  font-size: 32px;
+  width: 70%;
+  line-height: 150%;
+  font-style: italic;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+#overlay {
+  background-color: rgba(225, 225, 225, 0.75);
+  min-height: 1100px;
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+}
+.donate {
+  height: 60px;
+  width: 80%;
+  font-size: 25px;
+  color: #FAF8F8;
+  background-color: #05205C;
+  font-family: "Chaparral", serif;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px #90959F;
+  margin: 20px;
+}
+#mission {
+  color: #707070;
+  margin-top: 70px;
+}
+#buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+ul {
+  width: 80%;
+  margin: auto;
+  align-content: center;
+  flex-wrap: wrap;
+}
+li {
+  font-family: "Chaparral", serif;
+  margin: 5px;
+  min-height: 20px;
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+}
+h4 {
+  font-size: 30px;
+  color: #05205C;
+}
+#graphics {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 80%;
+}
+footer {
+  background-color: #05205C;
+  color: #FAF8F8;
+  min-height: 200px;
+}
+#sponsors {
+  display: flex;
+  flex-direction: column;
+}
+#bsponsors {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 20px;
+  height: 200px;
+}
+#isponsors {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 15px;
+  height: 200px;
+}
+.jstflexrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+.jstflexitem {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+button {
+  min-height: 50px;
+  min-width: 70px;
+  font-family: "Chaparral", serif;
+  font-size: 30px;
+  margin: 15px;
+  color: #FAF8F8;
+  background-color: #05205C;
+}
+button:hover {
+  background-color: #90959F;
+}
+.fontcolor {
+  color: #FAF8F8;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 90%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 80%;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #FAF8F8;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 0;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+/* Caption text */
+.text {
+  color: #90959F;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.test {
+  color: #FAF8F8;
+  padding: 30px;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+form {
+  width: 80%;
+  margin: auto;
+}
+.labelinfo {
+  display: None;
+}
+legend {
+  font-family: "Chaparral";
+  font-size: 40px;
+}
+input {
+  color: #05205C;
+  font-family: "Chaparral";
+  font-size: 35px;
+  text-align: left;
+}
+.userinput {
+  width: 70%;
+  margin: 10px;
+  border: 1px 1px 1px 1px #90959F;
+  box-shadow: 2px 2px #90959F;
+}
+.donation-container {
+  min-height: 50px;
+  font-family: 'Chaparral', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  text-transform: uppercase;
+  background-color: #33CC00;
+  width: 70%;
+  margin: auto;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  color: white;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+label {
+  font-family: "Chaparral";
+  font-size: 30px;
+  color: #33CC00;
+  padding: 10px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+select {
+  border: 1px 1px 1px 1px #90959F;
+  box-shadow: 2px 2px #90959F;
+}
+.states {
+  font-family: "Chaparral";
+  font-size: 25px;
+  color: #90959F;
+}
+#notUSAddress {
+  flex-direction: column;
+  margin: auto;
+  align-content: center;
+  align-items: center;
+}
+#interestCheck {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 30px;
+}
+.labelIntrest {
+  margin-right: 10px;
+}
+#submit {
+  min-height: 50px;
+  min-width: 70px;
+  font-family: "Chaparral";
+  font-size: 30px;
+  margin: 15px;
+  color: #FAF8F8;
+  background-color: #33CC00;
+}
+#submit:hover {
+  background-color: #90959F;
+}
+.error {
+  color: red;
+  font-size: 25px;
+}
+.formcategory {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.formgroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#emailsub {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 70%;
+  margin: auto;
+  padding: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body,
+html {
+  height: 100%;
+}
+.bgimg {
+  /* Background image */
+  background-image: url('../assets/IMG_7552.jpg');
+  /* Full-screen */
+  height: 100%;
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a white text color to all elements inside the .bgimg container */
+  color: white;
+  /* Add a font */
+  font-family: "Courier New", Courier, monospace;
+  /* Set the font-size to 25 pixels */
+  font-size: 55px;
+}
+/* Position text in the top-left corner */
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+/* Position text in the bottom-left corner */
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+/* Position text in the middle */
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* Style the <hr> element */
+hr {
+  margin: auto;
+  width: 40%;
+}
+table {
+  width: 80%;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #05205C;
+  border-radius: 10px;
+  border: 2px #FAF8F8;
+  border-spacing: 0;
+}
+th {
+  color: #FAF8F8;
+  text-align: center;
+  padding: 20px;
+}
+td {
+  color: #FAF8F8;
+}
+/*# sourceMappingURL=style.css.map */
