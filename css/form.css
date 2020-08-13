@@ -1,0 +1,8 @@
+form {
+  width: 80%;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+}
+/*# sourceMappingURL=form.css.map */
