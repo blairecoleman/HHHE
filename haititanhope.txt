@@ -1,0 +1,100 @@
+A website for the non-profit Haitian Hope Humanitarian Efforts INC. for them to collect
+donations, inform their supporters of their activities, and get more support.
+
+Iteration 4 design: July 2020
+LAst Updated: August 2020
+
+List of classes and ids for this project:
+Index
+c headinghome
+c logo
+c statement
+c subStatement
+c callToAction
+c video
+i artBackground
+c pFeat
+c regQuote
+c subscriptionFeature
+c formgroup
+c secondaryNav
+c secondaryNavItem
+c secondaryNavImg
+c currentProjects
+c featurePostcard
+c socialFooter
+c sponsors
+c note
+c tabeiBrand
+
+Impact
+c headingRegular
+c caroselfeat
+c slideshow-container
+c mySlides fade
+c numbertext
+c caroselimg
+c text
+c prev
+c next
+c dot
+c sectionOdd
+c postcardParagraph
+c sectionEven
+c blogFeature
+
+Trips
+c featureList
+c featureListItem
+c carouselpowerpointfeat
+c pptcontent
+c pptP
+c pptImg
+c dynamicTable
+c mosaicgridfeat
+c grid-containermos
+c mosaicgrid-item
+i mositem1
+i mositem2
+i mositem3
+i mositem4
+i mositem5
+i mositem6
+i mositem7
+i mositem8
+i mositem9
+i mositem10
+i mositem11
+i mositem12
+i mositem13
+i mositem14
+i mositem15
+
+Blog
+i highlightedStory
+c gallerygridfeat
+c grid-container
+c grid-item
+c blogP
+c blogImg
+
+Donate
+c paypalDonationForm
+c socialsgridfeat
+c socgrid-item
+c volunteerInformationGrid
+c volGridItem
+c volGridImg
+c importantNote
+
+Trip Registration
+c progress
+c formPage
+c formPage active
+c userinput
+c states
+c formNavBut
+c formcatagory
+
+
+Unclassed Tags used for this project
